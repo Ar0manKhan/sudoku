@@ -1,4 +1,4 @@
-import { chunk, times } from "underscore";
+import { chunk, times } from "lodash";
 
 const getDefaultSudokuBoard = () => {
 	return chunk(
